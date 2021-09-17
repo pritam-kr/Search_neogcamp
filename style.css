@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --border-color: rgba(0, 0, 0, 0.137);
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+}
+.search-container{
+    padding: 40px 0;
+    text-align: center;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 20px;
+}
+.search-container h4{
+    margin-bottom: 10px;
+    font-size: large;
+}
+.search-bar{
+   
+}
+.search-bar input{
+    width: 93%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: large;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.search-bar button{
+    width: 7%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    font-size: large;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-bar button:active{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.show-team-data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.show-team-data .team_card{
+    width: 300px;
+    border: 1px solid var(--border-color);
+    margin: 5px;
+    border-radius: 10px;
+}
+.show-team-data .team_card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.bio{
+    padding: 5px 10px;
+}
+
+.show-video-data, .show-link-data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.show-video-data .viedo-card{
+    width: 300px;
+    margin: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+.show-video-data .viedo-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.link-card{
+    background-color: rgba(0, 0, 0, 0.178);
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
