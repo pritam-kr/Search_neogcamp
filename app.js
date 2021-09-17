@@ -102,40 +102,40 @@ const database = {
       des: "Now we use ReactJS, the most in-demand JS library today to create a dynamic app in the browser. We will be looking at the basics of React, JSX, useState, onClick handler, etc.",
     },
     {
-        title: "mark10: Build your cash register with vanillaJS",
-        link: "https://www.youtube.com/watch?v=oqpuG3-Pnvc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=8",
-        img: "./yimg/7.png",
-        des: "Make a cash register",
+      title: "mark10: Build your cash register with vanillaJS",
+      link: "https://www.youtube.com/watch?v=oqpuG3-Pnvc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=8",
+      img: "./yimg/7.png",
+      des: "Make a cash register",
     },
     {
-        title: "Mark11: Is your birthday lucky?",
-        link: "https://www.youtube.com/watch?v=KKodpTaLHUI&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=9",
-        img: "./yimg/8.png",
-        des: "Tell your friends if their birthdates are lucky or not.",
+      title: "Mark11: Is your birthday lucky?",
+      link: "https://www.youtube.com/watch?v=KKodpTaLHUI&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=9",
+      img: "./yimg/8.png",
+      des: "Tell your friends if their birthdates are lucky or not.",
     },
     {
-        title: "mark12: Fun with Triangles",
-        link: "https://www.youtube.com/watch?v=xOaKv-6bJwE&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=10",
-        img: "./yimg/9.png",
-        des: "fun with triangles.",
+      title: "mark12: Fun with Triangles",
+      link: "https://www.youtube.com/watch?v=xOaKv-6bJwE&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=10",
+      img: "./yimg/9.png",
+      des: "fun with triangles.",
     },
     {
-        title: "mark13: Is your birthday a palindrome?",
-        link: "https://www.youtube.com/watch?v=8rqZ524NzaQ&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=11",
-        img: "./yimg/10.png",
-        des: "Tell your friends if their birthdates are palindrome.",
+      title: "mark13: Is your birthday a palindrome?",
+      link: "https://www.youtube.com/watch?v=8rqZ524NzaQ&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=11",
+      img: "./yimg/10.png",
+      des: "Tell your friends if their birthdates are palindrome.",
     },
     {
-        title: "mark 14: stock purchase profit or loss",
-        link: "https://www.youtube.com/watch?v=P0dL7sl5jIc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=12",
-        img: "./yimg/11.png",
-        des: "Tell the user how much profit or loss he/she is making on a stock.",
+      title: "mark 14: stock purchase profit or loss",
+      link: "https://www.youtube.com/watch?v=P0dL7sl5jIc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=12",
+      img: "./yimg/11.png",
+      des: "Tell the user how much profit or loss he/she is making on a stock.",
     },
     {
-        title: "neoG'22 Admissions Open + Mock Interview",
-        link: "https://www.youtube.com/watch?v=uskLWIBYT_M",
-        img: "./yimg/12.png",
-        des: "Live mock interview",
+      title: "neoG'22 Admissions Open + Mock Interview",
+      link: "https://www.youtube.com/watch?v=uskLWIBYT_M",
+      img: "./yimg/12.png",
+      des: "Live mock interview",
     },
   ],
   links: [
@@ -192,9 +192,129 @@ const database = {
       link: "https://neog.camp/handbook/learnings-peek",
     },
     {
-      title: 'Mocky: Scheduel Interview',
-      link: 'https://mock-interviews.vercel.app/'
-    }
+      title: "Mocky: Scheduel Interview",
+      link: "https://mock-interviews.vercel.app/",
+    },
+  ],
+  projects: [
+    {
+      id: "1",
+      projectName: "How well do you know?",
+      projectDes:
+        "This should be similar to the app made in lessonOne of levelZero. During the live session, I made a quiz about myself (Tanay Pratap). You should make a quiz like that about yourself. Also, share it with your close friends and see if they really know you. 😉",
+      liveLink: "https://replit.com/@tanaypratap/end-game?embed=true#index.js",
+      mark: "#markOne",
+      guide: "https://neog.camp/guide/lesson-one",
+    },
+    {
+      id: "1",
+      projectName: "Make a quiz",
+      projectDes:
+        "Make a quiz on anything you're passionate about. Something which is fun to play and you can share within your social circle. Things like a TV Series, sports, movies etc. This is your assignment for lessonOne.",
+      liveLink: "https://replit.com/@tanaypratap/end-game?embed=true#index.js",
+      mark: "#markTwo",
+      guide: "https://neog.camp/guide/lesson-one#assignment-for-levelone",
+    },
+    {
+      id: "1",
+      projectName: "My portfolio",
+      projectDes:
+        "My portfolio. During lessonThree, you will make your portfolio and put details on site with the projects page. You have to host your portfolio and put your projects there",
+      liveLink: "https://adarshbalika.netlify.app/projects.html",
+      mark: "#markThree + #markFour + #markFive",
+      guide: "https://neog.camp/guide/lesson-three#assignment",
+    },
+    {
+      id: "1",
+      projectName: "Minion Speak",
+      projectDes:
+        "Make a translation web app that will translate your sentences into Banana language..",
+      liveLink: "https://bananaspeakpractice.netlify.app/",
+      mark: "#markSix",
+      guide: "https://neog.camp/guide/lesson-four#assignment",
+    },
+    {
+      id: "1",
+      projectName: "Fun translation app",
+      projectDes:
+        "Make a Yoda or Klingon or any other fun translation app. This is your assignment..",
+      liveLink: "https://chef-translate.netlify.app/",
+      mark: "#markSeven",
+      guide: "https://neog.camp/guide/lesson-four#assignment",
+    },
+    {
+      id: "1",
+      projectName: "Know your emotions.",
+      projectDes:
+        "First ReactJS app. This will interpret emojis. Put an emoji and it will tell what that means. We will make it during YouTube session.",
+      liveLink: "https://l4w0y.csb.app/",
+      mark: "#markEight",
+      guide: "https://neog.camp/guide/lesson-five",
+    },
+    {
+      id: "1",
+      projectName: "GoodBooks.",
+      projectDes:
+        "Make a ReactJS recommendation app similar to this book recommendation app.",
+      liveLink: "https://khjxk.csb.app/",
+      mark: "#markNine",
+      guide: "https://neog.camp/guide/lesson-five#assignment",
+    },
+    {
+      id: "1",
+      projectName: "Make a cash register",
+      projectDes:
+        "This app takes input as bill amount and cash given by customer, and shows output of number of notes to return.",
+      liveLink: "https://build-cash-register-manager.netlify.app/",
+      mark: "#markTen",
+      guide: "https://neog.camp/guide/mark-10",
+    },
+    {
+      id: "1",
+      projectName: "Tell your friends if their birthdates are lucky or not.",
+      projectDes:
+        "A vanilaJs application to know how lucky your birth date is?",
+      liveLink: "https://build-is-your-birthday-lucky.netlify.app/",
+      mark: "#markEleven",
+      guide: "https://neog.camp/guide/mark-11",
+    },
+    {
+      id: "1",
+      projectName: "Fun with triangles.",
+      projectDes:
+        "A triangle web app using HTML, CSS, and VanilaJS. That can find the area of triangle and quizzes on the triangle.",
+      liveLink: "https://build-learn-triangles.netlify.app/",
+      mark: "#markTwelve",
+      guide: "https://neog.camp/guide/mark-12",
+    },
+    {
+      id: "1",
+      projectName: "Tell your friends if their birthdates are palindrome.",
+      projectDes:
+        "Built an app using VanilajS to check your birthdate is Palindrome or not, If it is not a palindrome, then it will show the nearest palindrome date and by how many days it got missed.",
+      liveLink: "https://build-palindrome-birthdays.netlify.app/",
+      mark: "#markThirteen",
+      guide: "https://neog.camp/guide/mark-13",
+    },
+    {
+      id: "1",
+      projectName:
+        "Tell the user how much profit or loss he/she is making on a stock.",
+      projectDes:
+        "An application that can tell you your loss and profit on the share market.",
+      liveLink: "https://build-profit-or-loss.netlify.app/",
+      mark: "#markFourteen",
+      guide: "https://neog.camp/guide/mark-14",
+    },
+    {
+      id: "1",
+      projectName: "Blogs",
+      projectDes:
+        "Write 2 blogs and put them on the blog-page of your portfolio. It can be on technical or non-technical topics, you choose what you want to write on.",
+      liveLink: "",
+      mark: "#markFisteen",
+      guide: "",
+    },
   ],
 };
 
@@ -207,6 +327,7 @@ btnSearch.addEventListener("click", (e) => {
   var showTeams = "";
   var showVideo = "";
   var impLinks = "";
+  var project = "";
   if (inputValue === "team") {
     database[inputValue].forEach((each) => {
       showTeams += `
@@ -218,12 +339,12 @@ btnSearch.addEventListener("click", (e) => {
                 <p>${each.des}</h6>
                 </div>
             </div>`;
-      
+      document.querySelector(".project-section").style.display = "none";
       document.querySelector(".video-section").style.display = "none";
       document.querySelector(".show-link-data").style.display = "none";
       document.querySelector(".team-section").style.display = "flex";
       document.querySelector(".show-team-data").innerHTML = showTeams;
-      document.forms[0].reset()
+      document.forms[0].reset();
     });
   } else if (inputValue === "levelzero") {
     database[inputValue].forEach((each) => {
@@ -237,13 +358,14 @@ btnSearch.addEventListener("click", (e) => {
                 </div>
                 </div>
 
-            `
+            `;
+      document.querySelector(".project-section").style.display = "none";
       document.querySelector(".show-link-data").style.display = "none";
       document.querySelector(".team-section").style.display = "none";
       document.querySelector(".video-section").style.display = "flex";
       document.querySelector(".show-video-data").innerHTML = showVideo;
-      document.forms[0].reset()
-    })
+      document.forms[0].reset();
+    });
   } else if (inputValue === "links") {
     database[inputValue].forEach((each) => {
       impLinks += `
@@ -253,14 +375,36 @@ btnSearch.addEventListener("click", (e) => {
             </div>
 
             `;
+      document.querySelector(".project-section").style.display = "none";
       document.querySelector(".video-section").style.display = "none";
       document.querySelector(".team-section").style.display = "none";
       document.querySelector(".show-link-data").style.display = "flex";
       document.querySelector(".show-link-data").innerHTML = impLinks;
-      document.forms[0].reset()
+      document.forms[0].reset();
     });
-  }else{
-      alert("Please enter valid keyword as mentioned below")
-      document.forms[0].reset()
+  } else if (inputValue === "projects") {
+    database[inputValue].forEach((each) => {
+      project += `
+            
+            <div class="project-card">
+                <p>${each.mark}</p>
+                <h3>${each.projectName}</h3>
+                <p>${each.projectDes}</p>
+                <div class="btn-container">
+                <a href="${each.liveLink}" target="_blank"><button>Live</button></a> <a href="${each.guide}" target="_blank"><button>Guide</button></a>
+                </div>
+            </div>
+
+            `;
+      document.querySelector(".show-link-data").style.display = "none";
+      document.querySelector(".video-section").style.display = "none";
+      document.querySelector(".team-section").style.display = "none";
+      document.querySelector(".project-section").style.display = "flex";
+      document.querySelector(".show-project-data").innerHTML = project;
+      document.forms[0].reset();
+    });
+  } else {
+    alert("Please enter valid keyword as mentioned below");
+    document.forms[0].reset();
   }
 });
