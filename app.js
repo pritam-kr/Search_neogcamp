@@ -191,6 +191,10 @@ const database = {
       title: "Syllabus",
       link: "https://neog.camp/handbook/learnings-peek",
     },
+    {
+      title: 'Mocky: Scheduel Interview',
+      link: 'https://mock-interviews.vercel.app/'
+    }
   ],
 };
 
@@ -199,7 +203,7 @@ const inputText = document.querySelector("#search-bar");
 
 btnSearch.addEventListener("click", (e) => {
   e.preventDefault();
-  var inputValue = inputText.value;
+  var inputValue = inputText.value.toLowerCase();
   var showTeams = "";
   var showVideo = "";
   var impLinks = "";
