@@ -191,7 +191,7 @@ btnSearch.addEventListener("click", (e) => {
                 <div class="viedo-card">
                 <a href="${each.link}" target="_blank"><img src="${each.img}" ></a>
                <div class="bio">
-               <h3>${each.title}</h3>
+               <a href="${each.link}" target="_blank"><h3>${each.title}</h3></a>
                <p>${each.des}</p>
                </div>
                 </div>
