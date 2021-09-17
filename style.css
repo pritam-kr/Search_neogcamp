@@ -53,6 +53,15 @@
     background-color: rgba(0, 0, 0, 0.281);
 }
 
+.instruction{
+    text-align: left !important;
+    padding: 10px 0;
+}
+.instruction .key{
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 5px;
+    padding: 2px 10px;
+}
 .show-team-data{
     display: flex;
     justify-content: center;
