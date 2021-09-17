@@ -259,5 +259,8 @@ btnSearch.addEventListener("click", (e) => {
       document.querySelector(".show-link-data").innerHTML = impLinks;
       document.forms[0].reset()
     });
+  }else{
+      alert("Please enter valid keyword as mentioned below")
+      document.forms[0].reset()
   }
 });
