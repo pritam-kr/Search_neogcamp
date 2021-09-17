@@ -101,6 +101,42 @@ const database = {
       img: "./yimg/6.png",
       des: "Now we use ReactJS, the most in-demand JS library today to create a dynamic app in the browser. We will be looking at the basics of React, JSX, useState, onClick handler, etc.",
     },
+    {
+        title: "mark10: Build your cash register with vanillaJS",
+        link: "https://www.youtube.com/watch?v=oqpuG3-Pnvc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=8",
+        img: "./yimg/7.png",
+        des: "Make a cash register",
+    },
+    {
+        title: "Mark11: Is your birthday lucky?",
+        link: "https://www.youtube.com/watch?v=KKodpTaLHUI&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=9",
+        img: "./yimg/8.png",
+        des: "Tell your friends if their birthdates are lucky or not.",
+    },
+    {
+        title: "mark12: Fun with Triangles",
+        link: "https://www.youtube.com/watch?v=xOaKv-6bJwE&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=10",
+        img: "./yimg/9.png",
+        des: "fun with triangles.",
+    },
+    {
+        title: "mark13: Is your birthday a palindrome?",
+        link: "https://www.youtube.com/watch?v=8rqZ524NzaQ&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=11",
+        img: "./yimg/10.png",
+        des: "Tell your friends if their birthdates are palindrome.",
+    },
+    {
+        title: "mark 14: stock purchase profit or loss",
+        link: "https://www.youtube.com/watch?v=P0dL7sl5jIc&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=12",
+        img: "./yimg/11.png",
+        des: "Tell the user how much profit or loss he/she is making on a stock.",
+    },
+    {
+        title: "neoG'22 Admissions Open + Mock Interview",
+        link: "https://www.youtube.com/watch?v=uskLWIBYT_M",
+        img: "./yimg/12.png",
+        des: "Live mock interview",
+    },
   ],
   links: [
     {
