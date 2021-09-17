@@ -249,7 +249,7 @@ btnSearch.addEventListener("click", (e) => {
       impLinks += `
 
             <div class="link-card">
-                <p>${each.title} <a href="${each.link}" target="_blank"><i class="fas fa-link"></i> </a></p>
+            <a href="${each.link}" target="_blank" style="text-decoration:none; color: rgba(0, 0, 0, 0.959);"> <p>${each.title} <i class="fas fa-link" style="color: blue;"></i></p></a>
             </div>
 
             `;
