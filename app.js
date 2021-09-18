@@ -192,7 +192,7 @@ const database = {
       link: "https://neog.camp/handbook/learnings-peek",
     },
     {
-      title: "Mocky: Scheduel Interview",
+      title: "Mocky: Schedule Interview",
       link: "https://mock-interviews.vercel.app/",
     },
   ],
