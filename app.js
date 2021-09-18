@@ -1,67 +1,11 @@
 const database = {
-  team: [
+  mentor: [
     {
       title: "Tanay Pratap",
       img: "./team/tanay.jpg",
       job: "Senior Software Engineer at Microsoft",
       des: "Teacher to thousands",
       link: "https://www.linkedin.com/in/tanaypratap/",
-    },
-    {
-      title: "Akanksha Choudhary",
-      img: "./team/akanksha.jpg",
-      job: "Engineer at Viacom18",
-      des: "Cracking the JS interviews",
-      link: "https://www.linkedin.com/in/akankshachoudhary",
-    },
-    {
-      title: "Sushil Tripathi",
-      img: "./team/sushil.jpg",
-      job: "Software Engineer at Microsoft",
-      des: "Data Structures and Algorithms using JavaScript",
-      link: "https://www.linkedin.com/in/sushilt3",
-    },
-    {
-      title: "Pavithra Kodmad",
-      img: "./team/pavithra.jpg",
-      job: "Frontend Dev at Atlassian",
-      des: "Web Performance",
-      link: "https://www.linkedin.com/in/pavithra-kodmad",
-    },
-    {
-      title: "Vikram Santhalia",
-      img: "./team/vikram.jpg",
-      job: "UX Engineer at Google",
-      des: "Intro to Angular and CSS Animations in Depth",
-      link: "https://www.linkedin.com/in/vikramsanthalia",
-    },
-    {
-      title: "Rajat Kumar",
-      img: "./team/rajat.jpg",
-      job: "Engineer at Netflix",
-      des: "Understanding bundlers better by building your own",
-      link: "https://www.linkedin.com/in/rajatkum",
-    },
-    {
-      title: "Manjula Dube",
-      img: "./team/manjula.jpg",
-      job: "Engineer at Vanguard",
-      des: "Web Accessibility 101",
-      link: "Manjula Dube",
-    },
-    {
-      title: "Ruphaa Ganesh",
-      img: "./team/ruphaa.jpg",
-      job: "Developer at DeepSourceHQ",
-      des: "VueJS: First Look",
-      link: "https://www.linkedin.com/in/ruphaaganesh",
-    },
-    {
-      title: "Kushagra Gour",
-      img: "./team/kushagra.jpg",
-      job: "Frontend Lead at PushOwl",
-      des: "Knowing CSS Best Practices",
-      link: "https://www.linkedin.com/in/chinchang",
     },
   ],
   levelzero: [
@@ -328,7 +272,7 @@ btnSearch.addEventListener("click", (e) => {
   var showVideo = "";
   var impLinks = "";
   var project = "";
-  if (inputValue === "team") {
+  if (inputValue === "mentor") {
     database[inputValue].forEach((each) => {
       showTeams += `
             <div class="team_card">
