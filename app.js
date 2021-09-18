@@ -139,6 +139,10 @@ const database = {
       title: "Mocky: Schedule Interview",
       link: "https://mock-interviews.vercel.app/",
     },
+    {
+      title: "More Sample Questions",
+      link: 'https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c'
+    },
   ],
   projects: [
     {
