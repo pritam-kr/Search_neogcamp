@@ -144,7 +144,7 @@ const database = {
       link: 'https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c'
     },
   ],
-  projects: [
+  mark15: [
     {
       id: "1",
       projectName: "How well do you know?",
@@ -330,7 +330,7 @@ btnSearch.addEventListener("click", (e) => {
       document.querySelector(".show-link-data").innerHTML = impLinks;
       document.forms[0].reset();
     });
-  } else if (inputValue === "projects") {
+  } else if (inputValue === "mark15") {
     database[inputValue].forEach((each) => {
       project += `
             
