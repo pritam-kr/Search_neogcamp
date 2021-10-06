@@ -1,136 +1,161 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-:root{
-    --border-color: rgba(0, 0, 0, 0.137);
+:root {
+  --border-color: rgba(0, 0, 0, 0.137);
+  --primary-color: #0099ff;
 }
-.parent-container{
-    display: flex;
-    justify-content: center;
+body{
+    background-color: #0099ff00;
 }
-
-.data-container{
-    display: flex;
-    justify-content: center;
-}
-.search-container{
-    padding: 40px 0;
-    text-align: center;
-    width: 600px;
-    max-width: 100%;
-    margin: 0 20px;
-}
-.search-container h4{
-    margin-bottom: 10px;
-    font-size: large;
+.parent-container {
+  display: flex;
+  justify-content: center;
 }
 
-.search-bar input{
-    width: 93%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    font-size: large;
-    border: 1px solid rgba(0, 0, 0, 0.404);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.data-container {
+  display: flex;
+  justify-content: center;
 }
-.search-bar button{
-    width: 7%;
-    padding: 10px;
-    border: 1px solid var(--border-color);
-    cursor: pointer;
-    font-size: large;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+.search-container {
+  padding: 40px 0 20px 0;
+  text-align: center;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 20px;
 }
-.search-bar button:active{
-    background-color: rgba(0, 0, 0, 0.281);
+.search-container h4 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
-.instruction{
-    text-align: left !important;
-    padding: 10px 0;
+.search-bar input {
+  width: 93%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: large;
+  border: 2px solid var(--primary-color);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.instruction .key{
-    background-color: rgba(0, 0, 0, 0.178);
-    border-radius: 5px;
-    padding: 2px 10px;
+.search-bar button {
+  width: 7%;
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  font-size: large;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--primary-color);
+  color: #fff;
 }
-.show-team-data{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 1000px;
-    padding-bottom: 20px;
-}
-.show-team-data .team_card{
-    width: 300px;
-    border: 1px solid var(--border-color);
-    margin: 5px;
-    border-radius: 10px;
-}
-.show-team-data .team_card img{
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-}
-.bio{
-    padding: 5px 10px;
+.search-bar button:active {
+  background-color: #0463a1;
 }
 
-.show-video-data, .show-link-data, .show-project-data{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 1000px;
-    padding-bottom: 20px;
+.instruction {
+  text-align: left !important;
+  padding: 10px 0;
 }
-.show-video-data .viedo-card{
-    width: 300px;
-    margin: 5px;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
+.instruction .key {
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 5px;
+  padding: 2px 10px;
 }
-.show-video-data .viedo-card a{
-    color:rgba(0, 0, 0, 0.959);
+.show-team-data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding-bottom: 20px;
 }
-.show-video-data .viedo-card h3{
+.show-team-data .team_card {
+  width: 300px;
+  border: 1px solid var(--primary-color);
+  margin: 5px;
+  border-radius: 10px;
+}
+.show-team-data .team_card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.bio {
+  padding: 5px 10px;
+}
+
+.show-video-data,
+.show-link-data,
+.show-project-data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding-bottom: 20px;
+}
+.show-video-data .viedo-card {
+  width: 300px;
+  margin: 5px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+.show-video-data .viedo-card a {
+    color: var(--primary-color);
+    transition: 0.3s ;
+}
+.show-video-data .viedo-card a:hover{
+    color: #0463a1;
+}
+.show-video-data .viedo-card h3 {
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+.show-video-data .viedo-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.link-card {
+  background-color: rgba(0, 0, 0, 0.178);
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.project-card {
+  width: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+}
+.project-card h3{
+    color: var(--primary-color);
     line-height: 23px;
-    margin-bottom: 5px;
 }
-.show-video-data .viedo-card img{
-    width: 100%;
-    border-radius: 10px;
+.project-card P{
+    font-weight: 400;
+    line-height: 23px;
 }
-
-
-.link-card{
-    background-color: rgba(0, 0, 0, 0.178);
-    margin: 5px;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 10px;
+.project-card .mark{
+    font-weight: 600;
+    color: rgba(49, 49, 49, 0.52);
+    line-height: 23px;
 }
-
-
-.project-card{
-    width: 300px;
-    margin: 5px;
-    border-radius: 10px;
-    padding: 10px;
-    border: 1px solid var(--border-color);
+.project-card .btn-container {
+  margin-top: 10px;
 }
-.project-card .btn-container{
-    margin-top: 10px;
-}
-.project-card .btn-container button{
-    padding: 4px 12px;
-    margin-right: 5px;
-    cursor: pointer;
-    border-radius: 3px;
-    border: 0.5px solid var(--border-color);
+.project-card .btn-container button {
+  padding: 4px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0.5px solid var(--border-color);
+  background-color: var(--primary-color);
+  color: #fff;
 }

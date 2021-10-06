@@ -335,7 +335,7 @@ btnSearch.addEventListener("click", (e) => {
       project += `
             
             <div class="project-card">
-                <p>${each.mark}</p>
+                <p class="mark">${each.mark}</p>
                 <h3>${each.projectName}</h3>
                 <p>${each.projectDes}</p>
                 <div class="btn-container">
