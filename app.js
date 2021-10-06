@@ -141,7 +141,7 @@ const database = {
     },
     {
       title: "More Sample Questions",
-      link: 'https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c'
+      link: "https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c",
     },
   ],
   mark15: [
@@ -287,12 +287,9 @@ btnSearch.addEventListener("click", (e) => {
                 <p>${each.des}</h6>
                 </div>
             </div>`;
-      document.querySelector(".project-section").style.display = "none";
-      document.querySelector(".video-section").style.display = "none";
-      document.querySelector(".show-link-data").style.display = "none";
-      document.querySelector(".team-section").style.display = "flex";
+
+      mentorDom();
       document.querySelector(".show-team-data").innerHTML = showTeams;
-      document.forms[0].reset();
     });
   } else if (inputValue === "levelzero") {
     database[inputValue].forEach((each) => {
@@ -304,31 +301,18 @@ btnSearch.addEventListener("click", (e) => {
                <p>${each.des}</p>
                </div>
                 </div>
-                </div>
-
-            `;
-      document.querySelector(".project-section").style.display = "none";
-      document.querySelector(".show-link-data").style.display = "none";
-      document.querySelector(".team-section").style.display = "none";
-      document.querySelector(".video-section").style.display = "flex";
+                </div> `;
+      levelZeroDom();
       document.querySelector(".show-video-data").innerHTML = showVideo;
-      document.forms[0].reset();
     });
   } else if (inputValue === "links") {
     database[inputValue].forEach((each) => {
       impLinks += `
-
             <div class="link-card">
             <a href="${each.link}" target="_blank" style="text-decoration:none; color: rgba(0, 0, 0, 0.959);"> <p>${each.title} <i class="fas fa-link" style="color: blue;"></i></p></a>
-            </div>
-
-            `;
-      document.querySelector(".project-section").style.display = "none";
-      document.querySelector(".video-section").style.display = "none";
-      document.querySelector(".team-section").style.display = "none";
-      document.querySelector(".show-link-data").style.display = "flex";
+            </div>`;
+      linksDom();
       document.querySelector(".show-link-data").innerHTML = impLinks;
-      document.forms[0].reset();
     });
   } else if (inputValue === "mark15") {
     database[inputValue].forEach((each) => {
@@ -341,18 +325,41 @@ btnSearch.addEventListener("click", (e) => {
                 <div class="btn-container">
                 <a href="${each.liveLink}" target="_blank"><button>Live</button></a> <a href="${each.guide}" target="_blank"><button>Guide</button></a>
                 </div>
-            </div>
-
-            `;
-      document.querySelector(".show-link-data").style.display = "none";
-      document.querySelector(".video-section").style.display = "none";
-      document.querySelector(".team-section").style.display = "none";
-      document.querySelector(".project-section").style.display = "flex";
-      document.querySelector(".show-project-data").innerHTML = project;
-      document.forms[0].reset();
+            </div> `;
+            document.querySelector(".show-project-data").innerHTML = project;
+      markDom();
     });
   } else {
     alert("Please enter valid keyword as mentioned below");
     document.forms[0].reset();
   }
 });
+
+function mentorDom() {
+  document.querySelector(".project-section").style.display = "none";
+  document.querySelector(".video-section").style.display = "none";
+  document.querySelector(".show-link-data").style.display = "none";
+  document.querySelector(".team-section").style.display = "flex";
+  document.forms[0].reset();
+}
+function levelZeroDom() {
+  document.querySelector(".project-section").style.display = "none";
+  document.querySelector(".show-link-data").style.display = "none";
+  document.querySelector(".team-section").style.display = "none";
+  document.querySelector(".video-section").style.display = "flex";
+  document.forms[0].reset();
+}
+function linksDom() {
+  document.querySelector(".project-section").style.display = "none";
+  document.querySelector(".video-section").style.display = "none";
+  document.querySelector(".team-section").style.display = "none";
+  document.querySelector(".show-link-data").style.display = "flex";
+  document.forms[0].reset();
+}
+function markDom() {
+  document.querySelector(".show-link-data").style.display = "none";
+  document.querySelector(".video-section").style.display = "none";
+  document.querySelector(".team-section").style.display = "none";
+  document.querySelector(".project-section").style.display = "flex";
+  document.forms[0].reset();
+}
