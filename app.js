@@ -143,6 +143,26 @@ const database = {
       title: "More Sample Questions",
       link: "https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c",
     },
+    {
+      title: "Sample question by Taran",
+      link: "https://www.notion.so/tarandeep/NeoG-Camp-Interview-Prep-Notes-8de8ebca2cb244a789422dabfbe0e993",
+    },
+    {
+      title: "Mock interview recording",
+      link: "https://luminous-verbena-4cd.notion.site/0b994e50e72a4eeea97e983b2af76ec8?v=c70c3788f3d74bb3917ad4ca975653d5",
+    },
+    {
+      title: "Level zero concept",
+      link: "https://jaswanthreddypadala.notion.site/jaswanthreddypadala/NEOGCAMP-LEVEL-0-558c6459c7b74b66853d6bb5e6c4ca4e",
+    },
+    {
+      title: "Level zero concept by Neha",
+      link: "https://nehashanbhag.notion.site/nehashanbhag/Things-to-cover-37e7d56db592425381454435f20f8a16",
+    },
+    {
+      title: "Practice question by Aman",
+      link: "https://github.com/aman11s/neog-levelOne-interview-practice-questions/blob/main/questions/questions.md",
+    },
   ],
   mark15: [
     {
